@@ -11,7 +11,7 @@ export const UserComponent = props => {
       <br />
       <br />
       <Button variant="contained" color="secondary" onClick={updateUserName}>
-        Change User name
+        Change User Name
       </Button>
     </React.Fragment>
   );
