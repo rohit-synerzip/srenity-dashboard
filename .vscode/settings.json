@@ -1,0 +1,5 @@
+{
+    "prettier.configPath": "/home/synerzip/srenity adera/srenity-dashboard/.prettierrc",
+    "prettier.ignorePath": "/home/synerzip/srenity adera/srenity-dashboard/.prettierignore",
+    "editor.formatOnSave": true
+}

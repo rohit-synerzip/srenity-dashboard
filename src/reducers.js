@@ -1,10 +1,8 @@
-import {combineReducers} from 'redux';
+import { combineReducers } from 'redux';
 
-import userReducer from './modules/user/reducers'
+import userReducer from './modules/user/reducers';
 const rootReducer = combineReducers({
- UserState: userReducer
-})
+  UserState: userReducer,
+});
 
-export {
-    rootReducer
-}
+export { rootReducer };

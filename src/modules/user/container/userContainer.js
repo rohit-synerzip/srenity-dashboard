@@ -11,11 +11,13 @@ class User extends React.Component {
   static propTypes = {
     getUserName: PropTypes.func,
     name: PropTypes.string,
+    setUserName: PropTypes.func,
   };
 
   static defaultProps = {
     getUserName: () => {},
     name: '',
+    setUserName: () => {},
   };
 
   state = {

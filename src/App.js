@@ -2,10 +2,10 @@ import React from 'react';
 import User from './modules/user/container/userContainer';
 
 function App() {
-  return(
+  return (
     <React.Fragment>
-    <User />
+      <User />
     </React.Fragment>
-  )
+  );
 }
 export default App;
