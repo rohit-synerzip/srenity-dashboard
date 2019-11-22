@@ -21,6 +21,9 @@ function App() {
           <li>
             <Link to="/user">User screen</Link>
           </li>
+          <li>
+            <Link to="/login">Login</Link>
+          </li>
         </ul>
 
         {routes.map(route => (
