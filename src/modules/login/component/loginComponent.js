@@ -76,7 +76,7 @@ const LoginComponent = props => {
               <Checkbox
                 name={rememberMe}
                 onClick={handleChange}
-                value={rememberMe}
+                value={Boolean(rememberMe)}
                 color="primary"
               />
             }
@@ -123,7 +123,7 @@ const LoginComponent = props => {
 LoginComponent.propTypes = {
   useremail: PropTypes.string,
   password: PropTypes.string,
-  rememberMe: PropTypes.bool,
+  rememberMe: PropTypes.number,
   handleChange: PropTypes.func,
   handleSubmit: PropTypes.func,
 };
@@ -131,7 +131,7 @@ LoginComponent.propTypes = {
 LoginComponent.defaultProps = {
   useremail: '',
   password: '',
-  rememberMe: false,
+  rememberMe: 0,
   handleChange: () => {},
   handleSubmit: () => {},
 };
